@@ -1,0 +1,38 @@
+title: "ML Coding 101 — Package-by-Package Reference"
+baseurl: "/codes"
+url: "https://karam-nus.github.io"
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-relative-links
+
+navigation:
+  - title: "01 — NumPy"
+    url: "/01_numpy"
+  - title: "02 — OpenCV"
+    url: "/02_opencv"
+  - title: "03 — Matplotlib"
+    url: "/03_matplotlib"
+  - title: "04 — tqdm"
+    url: "/04_tqdm"
+  - title: "05 — TorchVision"
+    url: "/05_torchvision"
+  - title: "06 — TorchAO"
+    url: "/06_torchao"
+  - title: "07 — TorchMetrics"
+    url: "/07_torchmetrics"
+  - title: "08 — Weights & Biases"
+    url: "/08_wandb"
+  - title: "09 — MLflow"
+    url: "/09_mlflow"
+  - title: "10 — Ultralytics"
+    url: "/10_ultralytics"
+  - title: "11 — TensorRT"
+    url: "/11_tensorrt"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
